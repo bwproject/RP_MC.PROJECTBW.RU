@@ -80,9 +80,10 @@ jobs:
           local-dir: '/home/runner/work/RP_MC.PROJECTBW.RU/RP_MC.PROJECTBW.RU/upload/'
           ##server-dir: ${{ secrets.FTP_PATH }}/
           server-dir: /hdd/pterodactyl/volumes/8eca4a8a-9337-4709-87f6-9a622d31795f/plugins/forcepack/packs/
-          protocol: ftps
+          protocol: ftp
           security: loose
           log-level: verbose
+          state-name: folder/.MC.json
           port: 22 # todo replace with your web hosts ftps port
 
 

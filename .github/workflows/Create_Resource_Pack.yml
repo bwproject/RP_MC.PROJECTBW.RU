@@ -83,7 +83,7 @@ jobs:
           protocol: ftp
           security: loose
           log-level: verbose
-          state-name: folder/.MC.json
+          state-name: .MC.json
           port: 22 # todo replace with your web hosts ftps port
 
 
